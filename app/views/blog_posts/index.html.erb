@@ -1,0 +1,10 @@
+<div class='center'> <h1> Blog </h1> </div>
+
+<div> 
+    <% @blog_posts.each do |blog_post| %>
+       <h5> <%= blog_post.title %> </h5>
+       <p> <%= blog_post.body %> </p>
+
+   <%end %> 
+
+</div>
